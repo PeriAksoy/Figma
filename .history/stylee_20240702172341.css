@@ -1,0 +1,98 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-style: normal;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    justify-content: center;
+}
+section{
+    padding: 100px 0;
+
+}
+/*HEADER*/
+header{
+    width: 100%;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    width:60%;
+    margin-top: 36px;
+    margin-bottom: 64px;
+}
+.box{
+    background-color: #f16718;
+    height: 40px;
+    width: 40px;
+    font-size: medium;
+    font-weight: bold;
+    color:white;
+    padding:3px;
+}
+.btn-grey{
+    background-color: #a5b9d8;
+}
+.btn-orange{
+    background-color: #f16718;
+}
+.btn{
+    font-weight:bold;
+    font-family: 'Barlow',sans-serif;
+    font-style: normal;
+    font-size: large;
+    height: 60px;
+    width: 170px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+button:hover {
+    opacity: 0.75;
+}
+
+/* ANASAYFA */
+
+.üstkisim{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 60%;
+}
+
+.kutu img{
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
